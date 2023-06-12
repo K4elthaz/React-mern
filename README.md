@@ -9,44 +9,44 @@ Clone the Repository
 To clone the repository, open your preferred command-line interface (CMD, Windows Terminal, or PowerShell) and navigate to the desired location where you want to clone the repository.
 
 # [Clone the Repository]
-###git clone [repository URL]
+####git clone [repository URL]
 
 
 # [Setting up the Client]
 Open your command-line interface and navigate to the cloned repository location.
-###cd [repository location]/client
+####cd [repository location]/client
 
 # [Install the required dependencies.]
-###npm install
+####npm install
 
 # [Setting up the Server]
 Open your command-line interface and navigate to the cloned repository location.
-###cd [repository location]/server
+####cd [repository location]/server
 
 # [Install the required dependencies.]
-###npm install
+####npm install
 
 
 # [Usage]
 To start the client or server, use the following commands:
-###cd [repository location]/client
-###npm start
+####cd [repository location]/client
+####npm start
 #If your getting a problem in starting the client side enter  this in the terminal with the directory of the client
 if there is a problem in starting the client
 
 $env:NODE_OPTIONS = "--openssl-legacy-provider"
 
 # [Server]
-###cd [repository location]/server
-###npm start
+####cd [repository location]/server
+####npm start
 
 
 
 # [Client Side]
-localhost:3000
+####localhost:3000
 
 # [Server Side]
-localhost:8080
+####localhost:8080
 
 
 
