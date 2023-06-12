@@ -32,8 +32,9 @@ To start the client or server, use the following commands:
 -cd [repository location]/client
 -npm start
 #If your getting a problem in starting the client side enter  this in the terminal with the directory of the client
+if there is a problem in starting the client
+
 $env:NODE_OPTIONS = "--openssl-legacy-provider"
-if there is a problem in client side
 
 # [Server]
 -cd [repository location]/server
